@@ -73,10 +73,13 @@ export default ((...[_Option = {}]) => {
 								switch (Logger) {
 									case 0:
 										return "silent";
+
 									case 1:
 										return "silent";
+
 									case 2:
 										return "info";
+
 									default:
 										return "info";
 								}
