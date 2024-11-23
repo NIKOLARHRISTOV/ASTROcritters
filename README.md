@@ -59,7 +59,7 @@ Then, apply this integration to your `astro.config.*` file using the
 
 ```ts
 export default {
-	integrations: [(await import("@playform/inline")).default()],
+  integrations: [(await import("@playform/inline")).default()],
 };
 ```
 
@@ -71,17 +71,17 @@ Critters will now automatically inline the critical CSS of your HTML files.
 
 You can override any of the default options from the configuration of:
 
--   [`critters`](https://github.com/GoogleChromeLabs/critters#usage)
+- [`critters`](https://github.com/GoogleChromeLabs/critters#usage)
 
 or disable them entirely:
 
 ```ts
 export default {
-	integrations: [
-		(await import("@playform/inline")).default({
-			Critters: false,
-		}),
-	],
+  integrations: [
+    (await import("@playform/inline")).default({
+      Critters: false,
+    }),
+  ],
 };
 ```
 
@@ -94,11 +94,11 @@ variable.
 
 ```ts
 export default {
-	integrations: [
-		(await import("@playform/inline")).default({
-			Path: ["./Target", "./Build"],
-		}),
-	],
+  integrations: [
+    (await import("@playform/inline")).default({
+      Path: ["./Target", "./Build"],
+    }),
+  ],
 };
 ```
 
@@ -110,11 +110,11 @@ You can also provide a map of paths for different input output directories.
 
 ```ts
 export default {
-	integrations: [
-		(await import("@playform/inline")).default({
-			Path: new Map([["./Source", "./Target"]]),
-		}),
-	],
+  integrations: [
+    (await import("@playform/inline")).default({
+      Path: new Map([["./Source", "./Target"]]),
+    }),
+  ],
 };
 ```
 
@@ -124,16 +124,16 @@ Or an array of the two.
 
 ```ts
 export default {
-	integrations: [
-		(await import("@playform/inline")).default({
-			Path: [
-				// Inline Target
-				"./Target",
-				// Inline Target one more time into a different directory
-				new Map([["./Target", "./TargetInline"]]),
-			],
-		}),
-	],
+  integrations: [
+    (await import("@playform/inline")).default({
+      Path: [
+        // Inline Target
+        "./Target",
+        // Inline Target one more time into a different directory
+        new Map([["./Target", "./TargetInline"]]),
+      ],
+    }),
+  ],
 };
 ```
 
@@ -147,14 +147,11 @@ match on file names:
 
 ```ts
 export default {
-	integrations: [
-		(await import("@playform/inline")).default({
-			Exclude: [
-				"File.html",
-				(File: string) => File === "./Target/index.html",
-			],
-		}),
-	],
+  integrations: [
+    (await import("@playform/inline")).default({
+      Exclude: ["File.html", (File: string) => File === "./Target/index.html"],
+    }),
+  ],
 };
 ```
 
@@ -165,19 +162,18 @@ value is `2`, but you can set it to `0` if you don't want to see debug messages:
 
 ```ts
 export default {
-	integrations: [
-		(await import("@playform/inline")).default({
-			Logger: 0,
-		}),
-	],
+  integrations: [
+    (await import("@playform/inline")).default({
+      Logger: 0,
+    }),
+  ],
 };
 ```
 
 [Inline]: HTTPS://NPMJS.Org/@playform/inline
 [critters]: HTTPS://github.com/GoogleChromeLabs/critters
 [astro-integration]: HTTPS://docs.astro.build/en/guides/integrations-guide/
-[critical CSS]:
-	HTTPS://www.smashingmagazine.com/2015/08/understanding-critical-css/
+[critical CSS]: HTTPS://www.smashingmagazine.com/2015/08/understanding-critical-css/
 
 ## Changelog
 
