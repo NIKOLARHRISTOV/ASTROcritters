@@ -1,53 +1,59 @@
 {
-	"name": "@playform/inline",
-	"version": "0.1.0",
-	"private": false,
-	"description": "🦔 Inline —",
-	"keywords": [
-		"astro",
-		"astro-component",
-		"astro-integration",
-		"astro-critters",
-		"astro-inline",
-		"critters",
-		"inline",
-		"css",
-		"performance",
-		"withastro",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/PlayForm/Inline#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/PlayForm/Inline/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/PlayForm/Inline.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🖋️ Source — 👐🏻 Open —",
-		"email": "Source/Open@PlayForm.LTD",
-		"url": "HTTPS://PlayForm.LTD"
-	},
-	"type": "module",
-	"main": "./Target/Function/Integration.js",
-	"types": "./Target/Function/Integration.d.ts",
-	"scripts": {
-		"Run": "Build 'Source/**/*.ts' --Watch",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
-	"dependencies": {
-		"@playform/pipe": "0.1.1",
-		"astro": "*",
-		"critters": "0.0.25",
-		"deepmerge-ts": "7.1.3"
-	},
-	"devDependencies": {
-		"@playform/build": "0.1.9"
-	},
-	"publishConfig": {
-		"access": "public",
-		"provenance": true
-	}
+  "name": "@playform/inline",
+  "version": "0.1.0",
+  "private": false,
+  "description": "🦔 Inline —",
+  "keywords": [
+    "astro",
+    "astro-component",
+    "astro-integration",
+    "astro-critters",
+    "astro-inline",
+    "critters",
+    "inline",
+    "css",
+    "performance",
+    "withastro",
+    "playform"
+  ],
+  "homepage": "HTTPS://GitHub.Com/PlayForm/Inline#readme",
+  "bugs": {
+    "url": "HTTPS://GitHub.Com/PlayForm/Inline/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlayForm/Inline.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "🖋️ Source — 👐🏻 Open —",
+    "email": "Source/Open@PlayForm.LTD",
+    "url": "HTTPS://PlayForm.LTD"
+  },
+  "type": "module",
+  "main": "./Target/Function/Integration.js",
+  "types": "./Target/Function/Integration.d.ts",
+  "files": [
+    "Target",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "Run": "Build 'Source/**/*.ts' --Watch",
+    "prepublishOnly": "Build 'Source/**/*.ts'"
+  },
+  "dependencies": {
+    "@playform/pipe": "0.1.1",
+    "astro": "*",
+    "critters": "0.0.25",
+    "deepmerge-ts": "7.1.3"
+  },
+  "devDependencies": {
+    "@playform/build": "0.1.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
