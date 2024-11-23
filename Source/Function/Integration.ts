@@ -9,7 +9,7 @@ import type Interface from "../Interface/Integration.js";
  * @module Integration
  *
  */
-export default ((...[_Option = {}]) => {
+const integration: Interface = (...[_Option = {}]) => {
   Object.entries(_Option).forEach(([Key, Value]) =>
     Object.defineProperty(_Option, Key, {
       value:
@@ -102,7 +102,8 @@ export default ((...[_Option = {}]) => {
       },
     },
   };
-}) satisfies Interface as Interface;
+};
+export default integration;
 
 export const { default: Default } = await import("@Variable/Option.js");
 
