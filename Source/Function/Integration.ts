@@ -1,6 +1,6 @@
-// @ts-ignore
 import type Action from "@playform/pipe/Target/Interface/Action.js";
 import type Path from "@playform/pipe/Target/Type/Path.js";
+// @ts-ignore
 import __Critters from "critters";
 
 import type Interface from "../Interface/Integration.js";
