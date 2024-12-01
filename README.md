@@ -71,7 +71,7 @@ Critters will now automatically inline the critical CSS of your HTML files.
 
 You can override any of the default options from the configuration of:
 
--   [`critters`](HTTPS://github.com/GoogleChromeLabs/critters#usage)
+-   [`critters`](https://github.com/GoogleChromeLabs/critters#usage)
 
 or disable them entirely:
 
