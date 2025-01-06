@@ -5,5 +5,5 @@ import type Option from "../Interface/Option.js";
  *
  */
 export default interface Interface {
-    (Option: Option): AstroIntegration;
+    (Option?: Option): AstroIntegration;
 }
