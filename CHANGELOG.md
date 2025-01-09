@@ -1,5 +1,36 @@
 ## 2.2.1
 
+#### Changed
+
+- Updated the version in `package.json` from `2.2.0` to `2.2.1`.
+- Updated email and URL in `package.json` to use the `.LTD` domain.
+- Updated dependencies in `package.json`:
+    - `@playform/pipe` from `0.1.0` to `0.1.2`
+    - `critters` from `0.0.2`4 to `0.0.2`5
+    - Added `deepmerge-ts` version `7.1.3`
+    - `@playform/build` from `0.1.2` to `0.2.1`
+
+#### Added
+
+- Added `DEPENDENTS.md` and `docs/` to `.npmignore`.
+- Added type imports in `Source/Function/Integration.ts` for `Action`, `Path`,
+  and `Interface`.
+- Added type imports in `Source/Interface/Critters.ts` for `Logger`.
+- Added type imports in `Source/Interface/Integration.ts` for `AstroIntegration`
+  and `Option`.
+- Added type imports in `Source/Interface/Option.ts` for `Option` and
+  `Critters`.
+- Added type imports in `Source/Variable/Critters.ts` for `Interface`.
+- Added type imports in `Source/Variable/Option.ts` for `Interface`.
+
+#### Fixed
+
+- Modified `Integration.ts` to handle `Path` as an instance of `Map`.
+
+#### Removed
+
+- Removed redundant imports in various files.
+
 ## 2.2.0
 
 ### Changed
@@ -59,11 +90,11 @@
 - Refactor
 - Documentation
 
-## 2.0.11
+## 2.0.1`
 
 - Cleanup
 
-## 2.0.10
+## 2.0.1`
 
 - Cleanup
 
@@ -103,127 +134,127 @@
 
 - Restoration
 
-## 1.1.40
+## 1.1.4`
 
 - Cleanup
 
-## 1.1.39
+## 1.1.3`
 
 - Bug fix
 
-## 1.1.38
+## 1.1.3`
 
 - Bug fix
 
-## 1.1.37
+## 1.1.3`
 
 - Bug fix
 
-## 1.1.36
+## 1.1.3`
 
 - Cleanup
 
-## 1.1.35
+## 1.1.3`
 
 - Cleanup
 
-## 1.1.34
+## 1.1.3`
 
 - Bug fix
 
-## 1.1.33
+## 1.1.3`
 
 - Version with provenance
 
-## 1.1.32
+## 1.1.3`
 
 - Cleanup
 
-## 1.1.31
+## 1.1.3`
 
 - Switches to the files-pipe component
 
-## 1.1.30
+## 1.1.3`
 
 - Updates files-pipeline component
 
-## 1.1.29
+## 1.1.2`
 
 - Enhancement
 
-## 1.1.28
+## 1.1.2`
 
 - Bug fix
 
-## 1.1.27
+## 1.1.2`
 
 - Cleanup
 
-## 1.1.26
+## 1.1.2`
 
 - Bug fix
 
-## 1.1.25
+## 1.1.2`
 
 - Cleanup
 
-## 1.1.24
+## 1.1.2`
 
 - Cleanup
 
-## 1.1.23
+## 1.1.2`
 
 - Switches ownership
 
-## 1.1.22
+## 1.1.2`
 
 - Cleanup
 
-## 1.1.21
+## 1.1.2`
 
 - Bug fix
 
-## 1.1.20
+## 1.1.2`
 
 - Cleanup
 
-## 1.1.19
+## 1.1.1`
 
 - Bug fix
 
-## 1.1.18
+## 1.1.1`
 
 - Updates pipeline
 
-## 1.1.17
+## 1.1.1`
 
 - Bug fix
 
-## 1.1.16
+## 1.1.1`
 
 - Refactor
 
-## 1.1.15
+## 1.1.1`
 
 - Adds missing types
 
-## 1.1.14
+## 1.1.1`
 
 - Adapt
 
-## 1.1.13
+## 1.1.1`
 
 - Bug fix
 
-## 1.1.12
+## 1.1.1`
 
 - Cleanup
 
-## 1.1.11
+## 1.1.1`
 
 - Bug fix
 
-## 1.1.10
+## 1.1.1`
 
 - Cleanup
 
@@ -291,11 +322,11 @@
 
 - First stable version
 
-## 0.0.11
+## 0.0.1`
 
 - Refactor
 
-## 0.0.10
+## 0.0.1`
 
 - Cleanup
 
