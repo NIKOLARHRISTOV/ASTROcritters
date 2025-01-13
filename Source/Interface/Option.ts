@@ -7,5 +7,5 @@ import type Critters from "../Interface/Critters.js";
  *
  */
 export default interface Interface extends Option {
-  Critters?: boolean | Critters;
+	Critters?: boolean | Critters;
 }
