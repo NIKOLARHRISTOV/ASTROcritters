@@ -5,7 +5,8 @@
 This **[Astro integration][astro-integration]** brings [`critters`][critters] to
 your Astro project.
 
-Critters is a plugin that inlines your app's [critical CSS] and lazy-loads the rest.
+Critters is a plugin that inlines your app's [critical CSS] and lazy-loads the
+rest.
 
 > **Note**
 >
@@ -71,7 +72,7 @@ Critters will now automatically inline the critical CSS of your HTML files.
 
 You can override any of the default options from the configuration of:
 
--   [`critters`](HTTPS://GitHub.Com/GoogleChromeLabs/critters#usage)
+- [`critters`](HTTPS://GitHub.Com/GoogleChromeLabs/critters#usage)
 
 or disable them entirely:
 
